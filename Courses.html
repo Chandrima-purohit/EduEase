@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduEase</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/26985e21e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Index.html"><img src="images/logo1.png"</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                  <li>  <a href="Index.html">HOME</a> </li>
+                  <li>  <a href="About.html">ABOUT</a> </li>
+                  <li>  <a href="Courses.html">COURSE</a> </li>
+                  
+                  <li>  <a href="Contact.html">CONTACT</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+
+        
+    </section>
+    <!---course-->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>OUR COURSES ARE PACKED WITH VARIETY AND CREATIVE OPPORTUNITIES !!</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Data Structures and Algorithms</h3>
+                <p>Learn the strengths and weaknesses of a variety of data structures, 
+                    so you can choose the best data structure for your data and applications.</p>
+                </div>
+              <div class="course-col">
+
+                <h3>Core Java</h3>
+                <p>Learn Java In this course and become a Computer Programmer. Obtain valuable Core Java Skills and Java
+                     Certification</p>
+              </div>
+
+              <div class="course-col">
+                <h3>MongoDB</h3>
+                <p>Master MongoDB Development for Web & Mobile Apps. CRUD Operations, Indexes, Aggregation Framework- All about MongoDB!</p>
+              </div>
+            </div>
+        </div>
+
+    </section>
+    <!---facilities-->
+    <section class="facilities">
+        <h1>Why EduEase?</h1>
+        <p>EduEase is a education network that helps connect all learners with 
+            the people and resources needed to reach their full potential.</p>
+
+           <div class="row">
+
+                  <div class="facilities-col">
+                   <img src="images/facilities.jpg">
+                   <h3>Get the answers you need</h3>
+            <p>Hate it when class ends and you still have questions? With EdUEase,
+             it’s easy to message your teacher or get help from them instantly.</p>
+            </div>
+            
+                <div class="facilities-col">
+                    <img src="images/facilities1.jpg">
+                    <h3>Stay on track</h3>
+            <p>There’s always a lot going on at your University. EduEase organizes your work with class 
+            folders and a built-in Planner, so that you can stress less.</p>
+                </div>
+    
+                <div class="facilities-col">
+                    <img src="images/facilities2.jpg">
+                    <h3>Discover your next passion</h3>
+           <p> Your next fixation is around the corner. With mindfulness activities, games, 
+            and more on Discover, you can find your next favorite topic on EduEase.
+           </p>
+                </div>
+           </div>
+
+    </section>
+    
+   
+    
+<!---Footer-->
+<section class="Footer">
+    <h4>About Us</h4>
+    <p>EduEase is an education network that helps connect all learners with 
+        the people and<br> resources needed to reach their full potential.</p>
+        <div class="icons">
+            <i class="fab fa-facebook" ></i>
+            <i class="fab fa-instagram" ></i>
+            <i class="fab fa-linkedin" ></i>
+            <i class="fab fa-twitter" ></i>
+         
+            
+           
+
+        </div>
+        <p>Created by CHANDRIMA PUROHIT</p>
+
+
+</section>
+
+
+
+    <!------JavaScript for Toggle Menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+            
+        }
+    </script>
+    <!------JavaScript for Toggle Menu------>
+</body>
+</html>

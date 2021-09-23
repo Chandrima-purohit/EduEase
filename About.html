@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduEase</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/26985e21e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Index.html"><img src="images/logo1.png"</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                  <li>  <a href="Index.html">HOME</a> </li>
+                  <li>  <a href="About.html">ABOUT</a> </li>
+                  <li>  <a href="Courses.html">COURSE</a> </li>
+                  
+                  <li>  <a href="Contact.html">CONTACT</a> </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>About Us</h1>
+        
+    </section>
+    <!----About Us Content----->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Learn Without Limits</h1>
+                <p>EduEase is an online learning platform featuring 100,100+ video courses taught by expert instructors.
+                     Take courses in anything from 
+                    programming languages like Python, and Java to personal development classes like design, deawing,
+                     writing anf yoga.Join the more than 
+                    30 million students who are mastering new skills, advancing their 
+                    careeers, and exploring new hobbies on EsuEase.
+
+                </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/AboutUs1.jpg">
+                
+
+            </div>
+        </div>
+    </section>
+   
+    
+<!---Footer-->
+<section class="Footer">
+    <h4>About Us</h4>
+    <p>EduEase is an education network that helps connect all learners with 
+        the people and<br> resources needed to reach their full potential.</p>
+        <div class="icons">
+            <i class="fab fa-facebook" ></i>
+            <i class="fab fa-instagram" ></i>
+            <i class="fab fa-linkedin" ></i>
+            <i class="fab fa-twitter" ></i>
+         
+            
+           
+
+        </div>
+        <p>Created by CHANDRIMA PUROHIT</p>
+
+
+</section>
+
+
+
+    <!------JavaScript for Toggle Menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+            
+        }
+    </script>
+    <!------JavaScript for Toggle Menu------>
+</body>
+</html>
